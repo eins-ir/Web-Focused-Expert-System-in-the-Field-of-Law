@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Увольнение. Схема №3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="../css/jquery.js"></script>
+	<script type="text/javascript" src="../css/autoresize.jquery.js"></script>
+	<script src="jscode/shema1.js"></script>
+	<script src="jscode/shema3.js"></script>
+
+	<div id="page-wrapper">
+
+			<!-- Header -->
+		<div id="header-wrapper" class="wrapper">
+			<div id="header">
+
+			<!-- Logo -->
+			<div id="logo">
+				<h1><a href="../../index.html">Экспертная система</a></h1>
+				<p>Схема об увольнении №3. Прогул</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="../index.html"><b>Главная</b></a></li>
+					<li>
+						<a href="../AboutProject.html"><b>О проекте</b></a></li>
+							<li><a href="#"><b>Услуги</b></a>
+							<ul>
+							<li><a href="../lawsuit.html"><b>Генерация искового заявления</b></a></li>
+							<li><a href="../inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+							<li><a href="../shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+							<li><a href="../mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+							<li><a href="../phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+							<li><a href="../bot/bot.html"><b>Поговорить с ботом</b></a></li>
+							</ul>
+							</li>
+					<li><a href="../contacts/contacts.html"><b>Контакты</b></a></li>
+				</ul>
+			</nav>
+			</div>
+		</div>
+
+	<!-- Contact Form -->
+	<div id="step301" style="text-align:center;">
+		<h6  align="center" style="text-align:center; display:block;color:black;">Работодатель установил факт нарушения трудовых обязанностей?</h6>
+		<button class="style1" onclick="button31()">Да</button> <button class="style1" onclick="buttonNo31()">Нет</button>
+	</div>
+	
+	<div id="blockNo3" style="display:none; text-align:center;color:black;">
+		<h6  align="center">Вам следует обратиться в суд с исковым завлением для защиты трудовых прав.
+		<br>
+			<p><a href="../logs/sacking12.txt" download style="color:grey" align="right">Скачать данные об общении с программой</a>
+		</h6>
+	</div>
+
+	<div id="step302" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Имеется ли документальное подтверждение нарушения Вами трудовых обязанностей (акт об отсутствии работника на рабочем месте, письмо-уведомление, в случае длительного отсутствия работника на рабочем месте)?</h6>
+		<button class="style1" onclick="button32()">Да</button> <button class="style1" onclick="buttonNo32()">Нет</button>
+	</div>
+	
+	<div id="step303" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Была ли оформлена на Вас докладная записка (это документ, адресованный руководителю, начальнику отдела, иным уполномоченным лицам. В ней излагается какой-либо вопрос с выводами и предложениями составителя и преследуется цель побудить руководство к принятию определенного решения)?</h6>
+		<button class="style1" onclick="button33()">Да</button> <button class="style1" onclick="buttonNo33()">Нет</button>
+	</div>
+	
+	<div id="step304" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Вы работаете непосредственно на работодателя?</h6>
+		<button class="style1" onclick="button34()">Да</button> <button class="style1" onclick="buttonNo34()">Нет</button>
+	</div>
+	
+	<div id="step305" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Был ли работодателем оформлен акт об отсутствии работника на рабочем месте?</h6>
+		<button class="style1" onclick="button35()">Да</button> <button class="style1" onclick="buttonNo35()">Нет</button>
+	</div>
+	
+	<div id="step306" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Вас ознакомили с актом?</h6>
+		<button class="style1" onclick="button36()">Да</button> <button class="style1" onclick="buttonNo36()">Нет</button>
+	</div>
+	
+	<div id="step307" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Работодатель издал приказ об увольнении?</h6>
+		<button class="style1" onclick="button37()">Да</button> <button class="style1" onclick="buttonNo37()">Нет</button>
+	</div>
+	
+	<div id="blockNo" style="display:none; text-align:center;color:black;">
+		<h6  align="center">Вам следует обратиться в суд с исковым заявлением для защиты трудовых прав.</h6>
+	</div>
+
+	<div id="step02" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Вы были ознакомлены с приказом об увольнении?</h6>
+		<button class="style1" onclick="button2()">Да</button> <button class="style1" onclick="buttonNo2()">Нет</button>
+	</div>
+	
+	<div id="step03" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Работодатель внес запись об увольнении в трудовую книжку?</h6>
+		<button class="style1" onclick="button3()">Да</button> <button class="style1" onclick="buttonNo3()">Нет</button>
+	</div>
+	
+	<div id="step04" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Вам были выплачены заработная плата за период работы перед увольнением, включая премии, надбавки и иные выплаты?</h6>
+		<button class="style1" onclick="button4()">Да</button> <button class="style1" onclick="buttonNo4()">Нет</button>
+	</div>
+	
+	<div id="step05" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Работодатель выплатил Вам компенсации (выходное пособие в размере среднего месячного заработка, денежную компенсацию за непредоставленный отпуск)?</h6>
+		<button class="style1" onclick="button5()">Да</button> <button class="style1" onclick="buttonNo5()">Нет</button>
+	</div>
+	
+	<div id="step06" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Вас уведомили о том, что нужно забрать трудовую книжку?</h6>
+		<button class="style1" onclick="button6()">Да</button> <button class="style1" onclick="buttonNo6()">Нет</button>
+	</div>
+	
+	<div id="step07" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">С момента Вашего увольнения прошел месяц?</h6>
+		<button class="style1"  onclick="button7()">Да</button> <button class="style1" onclick="buttonNo7()">Нет</button>
+	</div>
+	
+	<div id="step08" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">Процедура увольнения полностью соблюдена, поэтому нет оснований признать увольнение недействительным.</h6>
+	<br>
+			<p><a href="../logs/sacking11.txt" download style="color:grey" align="right">Скачать данные об общении с программой</a>
+		</div>
+
+	<div id="step09" style = "display:none; text-align:center;color:black;">
+		<h6  align="center">К сожалению, Вы пропустили срок обжалования увольнения.
+		<br>
+			<p><a href="../logs/sacking13.txt" download style="color:grey" align="right">Скачать данные об общении с программой</a>
+		</h6>
+	</div>
+
+	
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/skel-viewport.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+</body>
+</html>

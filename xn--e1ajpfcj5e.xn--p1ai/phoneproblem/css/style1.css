@@ -1,0 +1,335 @@
+/*@import url("reset.css");
+/*-----------index.html---------------*/
+
+
+
+
+form{
+	width:800px; 
+	height:300px;
+padding:0px; 
+margin-left:20%;
+border-style:outset;
+background: #F0FFF0;
+color: black;
+}
+.buttom{
+	position:absolute;
+	bottom: -110px;
+	left: 30%;
+}
+
+#memo{
+	margin:10%;
+	padding:5%;
+	border:5px gray;
+}
+.wrapper_body {
+ position: absolute;
+ padding: 20px 0;
+ height: 50%;
+ width: 100%;
+ color: #696969;
+ text-align: center;
+ background: #F0FFF0;
+				}
+ .cbm_wrap {
+ margin: 20px auto;
+ width: 70%;
+ min-height: 170px;
+ background: white;
+ padding: 22px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ border-radius:10px;
+ -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ position: relative;
+ z-index: 90;
+ color: #006969;
+ }
+ .cbm_wrap2 {
+ margin: 20px auto;
+ width: 100%;
+ min-height: 310px;
+ background: white;
+ padding: 20px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ border-radius:10px;
+ -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+ position: relative;
+ z-index: 90;
+ color: #696969;
+ }
+ .ribbon-wrapper-green {
+ width: 85px;
+ height: 88px;
+ overflow: hidden;
+ position: absolute;
+ top: -2px;
+ right: -2px;
+ }
+ .ribbon-green {
+ font-weight: bold;
+ font-family: Sans-Serif;
+ color: white;
+ font-size: 15px;
+ text-align: center;
+ text-shadow: #8B3A3A 0px 1px 0px;
+ -ms-transform:rotate(45deg);
+ -moz-transform:rotate(45deg);
+ -webkit-transform:rotate(45deg);
+ -o-transform:rotate(45deg);
+ transform:rotate(45deg);
+ position: relative;
+ padding: 7px 0 ;
+ left: -5px;
+ top: 13px;
+ width: 120px;
+ background: -webkit-gradient(linear, left top, left bottom, from(#B22222), to(#A52A2A));
+ color:white;
+ box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.3);
+ }
+ .ribbon-green:before, .ribbon-green:after {
+ content: '';
+ /* Colour of the triangle. To flip the effect, use border-bottom. */ border-top: 3px solid #6e8900;
+ border-left: 3px solid transparent;
+ border-right: 3px solid transparent;
+ position:absolute;
+ bottom: -3px;
+ /* +1 to compensate for the border */ }
+ .ribbon-green:before {
+ left: 0px;
+ }
+ .ribbon-green:after {
+ right: 0px;
+ }
+ 
+ .cbm_wrap img {
+ width: 100%;
+ margin-top: 15px;
+ }
+ .cbm_wrap p{
+ margin-top: 15px !important;
+ text-align: justify !important;
+ }
+ .cbm_wrap h1{
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 5px;
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+ }
+ .cbm_wrap2 img {
+ width: 100%;
+ margin-top: 15px;
+ }
+ .cbm_wrap2 p{
+ margin-top: 15px !important;
+ text-align: justify !important;
+ }
+ .cbm_wrap2 h1{
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 5px;
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+ }
+ /*.cbm_wrap a{
+ text-decoration: none;
+ color: #EAEAEA !important;
+ }
+ a{
+ text-decoration: none;
+ color: #4A4A4A !important;
+ }
+ a:hover{
+ text-decoration: underline;
+ color: #6B6B6B !important ;
+ }*/
+ ​
+.field{
+	text-align:right;
+	width:300px;
+	font-size:12.0pt;
+	font-family:Times;
+	border: 0.5px solid gray;
+
+}
+.box {
+    width:70%;
+    height:400px;
+    background:#FFF;
+    margin:30px auto 30px  auto;
+	position:relative;
+}
+.box_usually {
+    width:70%;
+    height:500px;
+    background:#FFF;
+    margin:30px auto 30px  auto;
+}
+ 
+/*==================================================
+ * Effect 7
+ * ===============================================*/
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+	background: #F0FFF0;
+				color: black;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+textarea
+{
+  width: 100%;
+  height: 50px;
+  overflow: auto;
+  padding: 5px;
+  border: 0.5px solid gray;
+  font-size:12.0pt;
+  max-height: 100px;
+  color: #696969;
+  resize:vertical;
+}
+#problemm{
+	width: 500px;
+	height: 100px;
+	margin: 300px;
+	margin-top:10px;
+}
+.spoiler-content{
+display:none;  
+padding:15px 20px; 
+}
+
+/**Стили блока оборачивающего каждый блок**/
+.spoiler-block{
+margin-top:10px; 
+margin-left:40px;
+}
+
+.spoiler {
+		position: relative;
+	}
+
+		.spoiler .title {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			text-align: center;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+		}
+
+			.spoiler .title:before {
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				left: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("images/shadow.png");
+			}
+
+			.spoiler .title:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				right: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("images/shadow.png");
+
+			}
+
+		.spoiler.style1 {
+			background: #e97770 url("images/overlay.png");
+			color: #eee;
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			.spoiler.style1 .title {
+				background: #e97770 url("images/overlay.png");
+				color: #fff;
+			}
+
+			.spoiler.style1 h1, .spoiler.style1 h2, .spoiler.style1 h3, .spoiler.style1 h4, .spoiler.style1 h5, .spoiler.style1 h6, .spoiler.style1 strong, .spoiler.style1 b, .spoiler.style1 a {
+				color: #fff;
+			}
+
+/**Стили кнопки спойлера**/
+
+.button15 {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+}
+.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+.titulList {
+	width: 42%;
+	text-align: left;
+	margin-left: 33%;
+}
+.main-project {
+	margin: 20px 40px 20px 40px;
+}

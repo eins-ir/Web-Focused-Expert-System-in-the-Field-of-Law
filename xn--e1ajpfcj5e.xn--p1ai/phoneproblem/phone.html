@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Экспертная система</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="../css/jquery.js"></script>
+	<script type="text/javascript" src="../css/autoresize.jquery.js"></script>
+	<script type="text/javascript">
+    jQuery(function()
+    {
+        jQuery('textarea').autoResize();
+		extraSpace : 0
+    });
+	
+
+	</script>
+	<div id="page-wrapper">
+
+	<!-- Header -->
+		<div id="header-wrapper" class="wrapper">
+			<div id="header">
+
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="../../index.html">Экспертная система</a></h1>
+						<p>Снятие денег на телефоне</p>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html"><b>Главная</b></a></li>
+							<li>
+								<a href="../AboutProject.html"><b>О проекте</b></a></li>
+									<li><a href="#"><b>Услуги</b></a>
+									<ul>
+									<li><a href="../lawsuit.html"><b>Генерация искового заявления</b></a></li>
+									<li><a href="../inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+									<li><a href="../shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+									<li><a href="../mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+									<li><a href="../phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+									<li><a href="../bot/bot.html"><b>Поговорить с ботом</b></a></li>
+									</ul>
+									</li>
+							<li><a href="../contacts/contacts.html"><b>Контакты</b></a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+		<script type="text/javascript">
+		var Stag2NO = function(){
+			document.getElementById('div2').style.display='none';
+			document.getElementById('buttom2').style.display='none';
+			document.getElementById('div3').style.display='block';
+			document.getElementById('buttom3').style.display='block';
+		}
+		var Stag2Yes = function(){
+			document.getElementById('div2').style.display='none';
+			document.getElementById('buttom2').style.display='none';
+			document.getElementById('div4').style.display='block';
+			document.getElementById('buttom4').style.display='block';
+		}
+		var Stag3Yes = function(){
+			document.getElementById('div3').style.display='none';
+			document.getElementById('buttom3').style.display='none';
+			document.getElementById('div5').style.display='block';
+		}
+		var Stag4No = function(){
+			document.getElementById('div4').style.display='none';
+			document.getElementById('buttom4').style.display='none';
+			document.getElementById('div6').style.display='block';
+			document.getElementById('buttom6').style.display='block';
+		}
+		var Stag6No = function(){
+			document.getElementById('div6').style.display='none';
+			document.getElementById('buttom6').style.display='none';
+			document.getElementById('div9').style.display='block';
+			document.getElementById('buttom9').style.display='block';
+		}
+		var Stag9No = function(){
+			document.getElementById('div9').style.display='none';
+			document.getElementById('buttom9').style.display='none';
+			document.getElementById('div7').style.display='block';
+		}
+		var Stag4Yes = function(){
+			document.location.href = "form1.html";
+		}
+		var Stag6Yes = function(){
+			document.location.href = "form3.html";
+		}
+		var Stag9Yes = function(){
+			document.location.href = "form4.html";
+		}
+		var Stag8 = function(){
+			document.location.href = "form2.html";
+		}
+		</script>
+
+		<!-- Contact Form -->
+		<div id="div2"  style="margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;">Вам известна причина списания?</h6>
+			</div>
+			<br>
+		</div>
+		<div id="buttom2" align="center">
+			<button class="style1" onclick="Stag2Yes()" style="margin-right:10px">Да</button> 
+			<button  class="style1" onclick="Stag2NO()">Нет</button>
+		</div>
+
+		<div id="div3"  style="display:none;margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;">Можете ли Вы получить выписку по счету от мобильного оператора?</h6>
+			</div>
+			<br>
+		</div>
+		<div id="buttom3" style="display:none;" align="center">
+			<button class="style1" onclick="Stag3Yes()" style="margin-right:10px">Да</button> 
+			<button  class="style1" onclick="Stag8()">Нет</button>
+		</div>
+		
+		
+		<div id="div5"  style="display:none;margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;color:black;">
+				Для получения более точной информации и оперативного рассмотрения Вашего обращения уполномоченным органом вам необходимо получить выписку по счёту от мобильного оператора.
+				<br>
+				После получения выписки обратитесь к нашему <a href="../bot/bot.html" style="color:grey">Онлайн Эксперту</a> повторно.
+				<br>
+				<p><a href="../logs/phone22.txt" download style="color:grey" align="right">Скачать данные об общении с программой</a>
+				</h6>
+			</div>
+			<br>
+		</div>
+
+		<div id="div4"  style="display:none;margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;">Оператор оформил подписки на номер без Вашего согласия?</h6>
+			</div>
+			<br>
+		</div>
+		<div id="buttom4" style="display:none;" align="center">
+			<button class="style1" onclick="Stag4Yes()" style="margin-right:10px">Да</button> 
+			<button  class="style1" onclick="Stag4No()">Нет</button>
+		</div>
+
+		<div id="div6"  style="display:none;margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;">Оператор в одностороннем порядке сменил тарифный план, что привело к необоснованному образованию задолженности?</h6>
+			</div>
+			<br>
+		</div>
+		<div id="buttom6" style="display:none;" align="center">
+			<button class="style1" onclick="Stag6Yes()" style="margin-right:10px">Да</button> 
+			<button  class="style1" onclick="Stag6No()">Нет</button>
+		</div>
+		
+		<div id="div9"  style="display:none;margin: 10px 20% 10px 20%">
+			<div style="text-align:center;">
+				<h6  align="center" style="color:black;text-align:center; display:block;">Оператор ошибочно оказывал Вам услуги связи в роуминге, когда Вы находились в приграничной зоне?</h6>
+			</div>
+			<br>
+		</div>
+		<div id="buttom9" style="display:none;" align="center">
+			<button class="style1" onclick="Stag9Yes()" style="margin-right:10px">Да</button> 
+			<button  class="style1" onclick="Stag9No()">Нет</button>
+		</div>
+		
+		<div id="div7"  style="display:none; margin: 10px 20% 10px 20%; text-align:justify;color:black;">
+		<h6  align="center" style="text-align:center; display:block;color:black;">
+		Проблема, с которой Вы столкнулись, еще не реализована.
+		<br>
+		<a href="../contacts/contacts.html" style="color:grey">Свяжитесь с нами.</a> Мы постараемся Вам помочь.
+		<br>
+		<p><a href="../logs/phone1.txt" download style="color:grey" align="right">Скачать данные об общении с программой</a>
+		</h6>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.dropotron.min.js"></script>
+		<script src="../assets/js/skel.min.js"></script>
+		<script src="../assets/js/skel-viewport.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+</body>
+</html>
+				

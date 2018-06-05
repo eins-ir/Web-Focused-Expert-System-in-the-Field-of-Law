@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Исковое заявление - >Экспертная система</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="../css/jquery.js"></script>
+	<script type="text/javascript" src="../css/autoresize.jquery.js"></script>
+	<script type="text/javascript">
+    jQuery(function()
+    {
+        jQuery('textarea').autoResize();
+		extraSpace : 0
+    });
+	
+
+	</script>
+	<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="../../index.html">Экспертная система</a></h1>
+								<p>Генерация искового заявления</p>
+							</div>
+
+						<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html"><b>Главная</b></a></li>
+							<li>
+								<a href="../AboutProject.html"><b>О проекте</b></a></li>
+									<li><a href="#"><b>Услуги</b></a>
+									<ul>
+									<li><a href="../lawsuit.html"><b>Генерация искового заявления</b></a></li>
+									<li><a href="../inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+									<li><a href="../shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+									<li><a href="../mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+									<li><a href="../phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+									<li><a href="../bot/bot.html"><b>Поговорить с ботом</b></a></li>
+									</ul>
+									</li>
+							<li><a href="../contacts/contacts.html"><b>Контакты</b></a></li>
+						</ul>
+					</nav>
+
+					</div>
+				</div>
+			<div class="wrapper style2">
+			
+				<h1 align="center">Пропуск срока принятия наследства</h1>
+				
+
+				<div class="cbm_wrap">
+					<div class="ribbon-wrapper-green">
+						<div class="ribbon-green">Памятка</div>
+					</div>
+				<br>
+				<p>
+				Принятие наследства наследником, пропустившим срок, установленный для принятия наследства, может происходить во внесудебном порядке (исключение – истец является единственным наследником) при наличии письменного согласия всех иных наследников. Если такое согласие подается нотариусу не напрямую, а направляется по почте или через третьих лиц, в том числе путём факсимильной связи, подписи на документах о согласии должны быть засвидетельствованы в установленном законом порядке (<a href="http://sudact.ru/law/gk-rf-chast3/razdel-v/glava-64/statia-1153/">абзац второй части 1 статьи 1153 ГК РФ</a>). Согласие наследников является основанием для аннулирования нотариусом ранее выданного свидетельства о праве на наследство и основанием для выдачи нового свидетельства. 
+				Если на основании ранее выданного свидетельства была осуществлена государственная регистрация прав на недвижимое имущество, постановление нотариуса об аннулировании ранее выданного свидетельства и новое свидетельство являются основанием внесения соответствующих изменений в запись о государственной регистрации.
+				</p> 
+			</div>​
+				
+						<form id="form" class="box effect7" method="post" action="documents.php">
+							<div class=WordSection1>
+							<p align="right"><span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+							<select  name="court" align="right" style="text-align:right;
+																													width:300px;
+																													font-size:12.0pt;
+																								border: 0.5px solid gray;  color: #696969;" required>
+								<option value="">Выберете суд</option>
+								<option value="Волжский районный суд г. Саратова">Волжский районный суд</option>
+								<option value="Заводской районный суд г. Саратова">Заводской районный суд</option>
+								<option value="Кировский районный суд г. Саратова">Кировский районный суд</option>
+								<option value="Ленинский районный суд г. Саратова">Ленинский районный суд</option>
+								<option value="Октябрьский районный суд г. Саратова">Октябрьский районный суд</option>
+								<option value="Фрунзенский районный суд г. Саратова">Фрунзенский районный суд</option>
+							</select><br>
+								<b class=MsoNormal align=right style='margin-bottom:0cm;margin-bottom:.0001pt;
+										text-align:right;line-height:normal font-size:12.0pt;mso-bidi-font-size:
+										14.0pt;'>Истец: <span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<input name="plaintiff" style="text-align:left;
+																		width:300px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;  color: #696969;" placeholder="ФИО заявителя" value="" required><br>
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<textarea name="requisites" style="width: 300px;
+																		height: 30px;
+																		overflow: hidden;
+																		padding: 5px;
+																		border: 0.5px solid gray;
+																		font-size:12.0pt;
+																		color: #000000;
+																		resize:vertical;  color: #696969;" rows="3" cols="20" wrap="soft" 
+											placeholder="почтовые реквизиты заявителя (адрес места жительства/регистрации, индекс)" required="required" value=""></textarea><br>
+									
+										<input name="phone" style="text-align:left;
+																	width:300px;
+																	font-size:12.0pt;
+																	border: 0.5px solid gray;  color: #696969;" placeholder="Номер сотового телефона" value=""><br>
+										
+										<input name="e-mail" style="text-align:left;
+																	width:300px;
+																	font-size:12.0pt;
+																	border: 0.5px solid gray;  color: #696969;" placeholder="Адрес электронной почты" value=""><br>
+								<p class=MsoNormal align=right style='margin-bottom:0cm;margin-bottom:.0001pt;
+										text-align:right;line-height:normal font-size:12.0pt;mso-bidi-font-size:
+										14.0pt;'>Наследодатель: <span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<input name="testator" style="text-align:left;
+																		width:300px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;  
+																		color: #696969;" placeholder="ФИО наследодателя" value="" required><br>
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<input name="address_testator" style="text-align:left;
+																	width:300px;
+																	font-size:12.0pt;
+																	border: 0.5px solid gray;  
+																	color: #696969;" placeholder="Адрес наследодателя" value="" required><br>
+								</b>
+									
+								<br>
+								<br>
+								<p class=MsoNormal align=center style='margin-top:12.0pt;text-align:center;
+										text-indent:1.0cm'><b style='mso-bidi-font-weight:normal'>
+										<span style='font-size:16.0pt;mso-bidi-font-size:14.0pt;line-height:107%;'>Исковое заявление<o:p></o:p></
+										span></b></p>
+								<p style="text-align:center; font-size:14.0pt;">о восстановлении срока принятия наследства и признании наследника принявшим наследство</p>
+									<div align=left> <h5>Укажите подходящий Вам вариант:
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h5><br>					
+										<input id="under the will" type="radio" name="inheritance" value="under the will" style="text-align:left">
+										<label for="under the will"> При наследовании по завещанию</label>
+										<br>
+										<input id="according to law" type="radio" name="inheritance" value="according to law">
+										<label for="according to law"> При наследовании по закону</label>
+										</div>
+								<p align=left><h6 align=left>Кем Вам приходится наследодатель?
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+										<p align=left><input name="relatives_out" align=left style=" text-align:left;
+																		width:500px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;
+																		color: #696969;" placeholder="родственная принадлежность, укажите в творительном падеже" value="" required></p>
+								<p align=left><h6 align=left>Кем Вы приходитель наследодателю?
+									<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+										<p align=left><input name="relatives_in" align=left style=" text-align:left;
+																		width:500px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;  
+																		color: #696969;" placeholder="родственная принадлежность, укажите в творительном падеже" value="" required></p>
+	
+								<p align=left><h6 align=left>Укажите дату смерти наследодателя 
+									<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+										<p align=left><input name="date_of_death" style=" text-align:left;
+																		width:500px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;
+																		color: #696969;" placeholder="дата смерти" value="" required></p>
+								<p align=left><h6 align=left>Наследником какой очереди вы являетесь?
+									<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+										<p align=left><input name="queue" style=" text-align:left;
+																		width:500px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;" placeholder="1, 2, 3 или укажите другую очередь, соответствующую Вам" value="" required></p>
+								<p align=left><h6 align=left>Нужно ли принять меры с целью обеспечения сохранности имущества наследодателя, в том числе предотвращения порчи или незаконной реализации? 
+										<input type="checkbox" name="measure" value="yes"> </h6>  </p>
+										<div class="cbm_wrap2" style="min-height:200px">
+									<div class="ribbon-wrapper-green">
+										<div class="ribbon-green">Памятка</div>
+									</div>
+									<p style="font-size:11.0pt">
+									<br>
+									Укажите индивидуальные признаки имущества, 
+									которые определяют его среди других аналогичных: точный адрес для квартиры;
+									модель, марку, год выпуска, цвет, государственный номерной знак и номер паспорта 
+									транспортного средства для транспортного средства; номер банковского счёта, наименование 
+									держателя банковского счёта, наименование банка, в котором находится счёт.
+										</p> 
+								</div>​
+								<a class="button15" onclick="AddMeasure()">Добавить меру</a>
+								<script type='text/javascript'>
+								var i=1;
+								var AddMeasure = function(){
+									i++;
+									var id = 'bloc'+i;
+									document.getElementById(id).style.display="block";
+									document.getElementById(id).innerHTML='<div style="display:table"><div style="display:table-cell">'+
+										'<span style="font-size:12.0pt; color: #696969">В отношении какого имущества применяется мера?</span> <br>'+
+										'<select  id="property1'+i+'" name="property[]" onchange="Fun(\'property1'+i+'\',\'property2'+i+'\')" style="'+
+																													'width:300px;'+
+																													'font-size:12.0pt;'+
+																								'border: 0.5px solid gray;  color: #696969;">'+
+								'<option value="">Выберете имущество</option>'+
+								'<option value="квартиры">Квартира</option>'+
+								'<option value="автомобиля">Автомобиль</option>'+
+								'<option value="земельного участка">Земельный участок</option>'+
+								'<option value="денежных средств">Денежные средства</option>'+
+								'<option value="банковского счета">Банковский счет</option>'+
+							'</select>'+
+							'<input id="property2'+i+'" name="property2[]" placeholder="" style="display:none;width:300px;font-size:12.0pt;'+
+																						'border: 0.5px solid gray;  color: #696969;"></div>'+
+							
+							
+							'<div style="display:table-cell;padding-left:50px">'+
+										'<span style="font-size:12.0pt; color: #696969">Выберете применяемую меру:</span> <br>'+
+										'<select  id="measure_fied'+i+'" name="measure_fied[]" onchange="Fun2(\'measure_fied'+i+'\',\'t'+i+'\',\'measure2'+i+'\',\'measure3'+i+'\')" style="'+
+																													'width:400px;'+
+																													'font-size:12.0pt;'+
+																								'border: 0.5px solid gray;  color: #696969;">'+
+								'<option value="">Выберете меру</option>'+
+								'<option value="наложение ареста на имущество, денежные средства, банковские счета">Наложение ареста на имущество, денежные средства, банковские счета</option>'+
+								'<option value="запрет на совершение определённых действий, в том числе запрет на пользование имуществом">Запрет на совершение определённых действий, в том числе запрет на пользование имуществом </option>'+
+								'<option value="передача имущества на хранение либо в депозит нотариусу либо третьим лицам">Передача имущества на хранение либо в депозит нотариусу либо третьим лицам</option>'+
+								'<option value="иные меры, если их непринятие может затруднить или сделать невозможным исполнение решения суда">Иные меры, если их непринятие может затруднить или сделать невозможным исполнение решения суда</option>'+
+							'</select>'+
+							'<span id="t'+i+'" style="display:none;color: #696969;">В отношении кого устанавливается запрет?</span>'+
+							'<select  id="measure2'+i+'" name="measure2[]"  style="width:400px;'+
+																		   'font-size:12.0pt;'+
+																		   'border: 0.5px solid gray;'+  
+																		   'color: #696969;'+
+																		   'display:none">'+
+								'+<option value="">Выберете ..</option>'+
+								'<option value="ответчика">Ответчик</option>'+
+								'<option value="третьих лиц">Третьи лица </option>'+
+								'<option value="ответчика и третьих лиц">Ответчик и третьи лица</option>'+
+							'</select>'+
+							'<textarea id="measure3'+i+'" name="measure3[]"  rows="20" cols="20" wrap="soft" style="display:none;height:50px;max-height:100px" placeholder="укажите виды мер" value=""></textarea></p>'+									
+							'</div>'+
+							'</div>'+
+							
+							'</div>';
+							document.getElementById('ii').value=i;
+									}
+								
+								</script>
+										<div style="display:table">
+										<div style="display:table-cell">
+										<span style="font-size:12.0pt; color: #696969">В отношении какого имущества применяется мера?</span> <br>
+										<select  id="property" name="property[]" onchange="Fun('property','property2')" style="
+																													width:300px;
+																													font-size:12.0pt;
+																								border: 0.5px solid gray;  color: #696969;">
+								<option value="">Выберете имущество</option>
+								<option value="квартиры">Квартира</option>
+								<option value="автомобиля">Автомобиль</option>
+								<option value="земельного участка">Земельный участок</option>
+								<option value="денежных средств">Денежные средства</option>
+								<option value="банковского счета">Банковский счет</option>
+							</select>
+							<input id="property2" name="property2[]" placeholder="" style="display:none;width:300px;font-size:12.0pt;
+																						border: 0.5px solid gray;  color: #696969;"></div>
+							<script type="text/javascript">
+							
+							var Fun = function(id1, id2){
+								var property = document.getElementById(id1).value;
+								if (property == 'квартиры'){
+									document.getElementById(id2).style.display="block";
+									document.getElementById(id2).placeholder="укажите адрес квартиры";
+								}
+								else if (property == 'автомобиля'){
+									document.getElementById(id2).style.display="block";
+									document.getElementById(id2).placeholder="укажите модель автомобиля";
+								}
+								else if (property == 'земельного участка'){
+									document.getElementById(id2).style.display="block";
+									document.getElementById(id2).placeholder="укажите адрес земельного участка";
+								}
+								else if (property == 'банковского счета'){
+									document.getElementById(id2).style.display="block";
+									document.getElementById(id2).placeholder="укажите номер банковского счета";
+								}
+								else if (property == 'денежных средств'){
+									document.getElementById(id2).style.display="none";
+								}
+								else if (property == ''){
+									document.getElementById(id2).style.display="none";
+								}								
+							}
+							</script>
+							
+							<div style="display:table-cell;padding-left:50px">
+										<span style="font-size:12.0pt; color: #696969">Выберете применяемую меру:</span> <br>
+										<select  id="measure_fied" name="measure_fied[]" onchange="Fun2('measure_fied','t1','measure2','measure3')" style="
+																													width:400px;
+																													font-size:12.0pt;
+																								border: 0.5px solid gray;  color: #696969;">
+								<option value="">Выберете меру</option>
+								<option value="наложение ареста на имущество, денежные средства, банковские счета">Наложение ареста на имущество, денежные средства, банковские счета</option>
+								<option value="запрет на совершение определённых действий, в том числе запрет на пользование имуществом">Запрет на совершение определённых действий, в том числе запрет на пользование имуществом </option>
+								<option value="передача имущества на хранение либо в депозит нотариусу либо третьим лицам">Передача имущества на хранение либо в депозит нотариусу либо третьим лицам</option>
+								<option value="иные меры, если их непринятие может затруднить или сделать невозможным исполнение решения суда">Иные меры, если их непринятие может затруднить или сделать невозможным исполнение решения суда</option>
+							</select>
+							<span id="t1" name="f" style="display:none;color: #696969;">В отношении кого устанавливается запрет?</span>
+							<select  id="measure2" name="measure2[]"  style="width:400px;
+																		   font-size:12.0pt;
+																		   border: 0.5px solid gray;  
+																		   color: #696969;
+																		   display:none">
+								<option value="">Выберете ..</option>
+								<option value="ответчика">Ответчик</option>
+								<option value="третьих лиц">Третьи лица </option>
+								<option value="ответчика и третьих лиц">Ответчик и третьи лица</option>
+							</select>
+							<textarea id="measure3" name="measure3"  rows="20" cols="20" wrap="soft" style="display:none;height:50px;max-height:100px" placeholder="укажите виды мер" value=""></textarea></p>									
+							</div>
+							</div>
+							
+							<script type="text/javascript">
+							var Fun2 = function(id1,id2,id3,id4){
+								var property = document.getElementById(id1).value;
+								if (property == 'запрет на совершение определённых действий, в том числе запрет на пользование имуществом'){
+									document.getElementById(id2).style.display="block";
+									document.getElementById(id3).style.display="block";
+									document.getElementById(id4).style.display="none";
+								}
+								else if (property == 'иные меры, если их непринятие может затруднить или сделать невозможным исполнение решения суда'){
+									document.getElementById(id2).style.display="none";
+									document.getElementById(id3).style.display="none";
+									document.getElementById(id4).style.display="block";
+								}
+								else {
+									document.getElementById(id2).style.display="none";
+									document.getElementById(id3).style.display="none";
+									document.getElementById(id4).style.display="none";
+								}
+							}
+							</script>
+							<div id="bloc2" style="display:none">
+							</div>
+							
+							<div id="bloc3" style="display:none">
+							</div>
+							<div id="bloc4" style="display:none">
+							</div>
+							<div id="bloc5" style="display:none">
+							</div>
+							<div id="bloc6" style="display:none">
+							</div>
+							<input id="ii" name="ii" type="hidden" value=" ">
+								<p  name="causes" style="text-align:left; font-size:14.0pt;" value=""> <h6 align=left>Срок вступления в наследство был мною нарушен по следующим причинам, которые я считаю уважительными:<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+									<br>
+									<div class="cbm_wrap2">
+									<div class="ribbon-wrapper-green">
+										<div class="ribbon-green">Памятка</div>
+									</div>
+									<p style="font-size:11.0pt">
+										Одновременно должно быть указано на:<br>
+										1.	Обстоятельства, подтверждающие то, что наследник не знал и не должен был знать об открытии наследства (в свободной форме – нахождение в командировке, отсутствие связи с наследодателем и т.д.)<br>
+										2.	Обстоятельства, подтверждающие то, что пропуск указанного срока произошел по уважительной причине (тяжелая болезнь, беспомощное состояние, неграмотность – подтверждаются наличием медицинских справок и т.д.)<br>
+											- при условии, что указанные обстоятельства препятствовали принятию наследником принятию наследства в течение всего срока.<br>
+										3.	наследник, пропустивший срок принятия наследства, обратился в суд в течение шести месяцев после отпадения причин пропуска этого срока. Указанный шестимесячный срок, установленный для обращения в суд с данным требованием, не восстанавливается, и наследник, пропустивший его, лишается права на восстановление срока принятия наследства (п. 1 ст. 1155 ГК РФ; п. 40 Постановления Пленума Верховного Суда РФ от 29.05.2012 N 9).<br>
+									</p> 
+								</div>​
+									<textarea name="text"  rows="20" cols="20" wrap="soft" placeholder="обстоятельства пропуска сроков, в свободной форме" value="" required></textarea></p>									
+								<p  style="text-align:left; font-size:14.0pt;"> <h6 align=left>Перечень прилагаемых документов: <span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span></h6>
+								
+							
+							<span align="left" style="text-align:left; font-size: 10.0pt">Вам предоставлен список документов, прилагаемых к иску. При необходимости самостоятельно допишите иные приложения, не указанные в списке. Полный перечень приложений приведен ниже</span>
+									<textarea name="apps"  rows="40" cols="20" wrap="soft" style="height:280px; max-height:350px;" placeholder="перечень приложений, прилогаемых к иску. Список возможных приложений приведен ниже" value="" required>
+1.	Копия паспорта истца
+2.	Квитанция об уплате госпошлины в размере 300 рублей 
+3.	Копия документов, подтверждающих статус истца как наследника
+4.	Доказательства уважительности пропуска срока для принятия наследства
+5.	Копия свидетельства о смерти наследователя.
+									</textarea></p>									
+	
+						
+							</div>
+							<p class = "buttom"> <input type="submit" name="ok" value="Скачать получившийся иск"></p>
+							<br>
+						</form>
+					
+						<div style="margin:20px;"><br>
+						<br></div>
+				<hr/>
+				<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Перечень прилагаемых документов</a>
+					<div class="spoiler-content"> 
+					<ol type="1">
+						<li> 1.	Копия паспорта истца</li> 
+						<li> 2.	Квитанция об уплате госпошлины в размере 300 рублей (<a href="http://city-advokat.ru/statya333-19-nalogovogo-kodeksa.html">1 п. 3 ч. 1 ст. 333.19 Налогового Кодекса РФ</a>)</li>
+						<li> 3.	Копия документов, подтверждающих статус истца как наследника (свидетельство о рождении, браке, усыновлении, завещание и др.)</li>
+						<li> 4.	Доказательства уважительности пропуска срока для принятия наследства: <br>
+										копии справок лечебных учреждений о продолжительном заболевании,
+										препятствовавшем своевременному принятию наследства</li> 
+						<li> 5.	Копия свидетельства о смерти наследователя.</li> 
+						<li> 6.	(при наличии представителя) Копия доверенности или иного документа, подтверждающего полномочия представителя истца</li>
+						<li> 7.	НЕОБЯЗАТЕЛЬНО: доказательства, характеризующие состав наследственного имущества</li>
+						<li> 8.	Иные документы по усмотрению истца</li>
+					</ol>
+					</div>
+				</div>
+				<hr/>
+				<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Примеры исковых заявлений</a>
+					<div class="spoiler-content"> 
+					</div>
+				</div>
+				<script type="text/javascript"> 
+					$(document).ready(function(){ 
+						$('.spoiler-title').click(function(){ 
+							$(this).parent().children('div.spoiler-content').toggle('fast');
+							return false;
+						});
+					});
+				</script>
+			</div>
+	</div>
+
+		
+</body>
+</html>

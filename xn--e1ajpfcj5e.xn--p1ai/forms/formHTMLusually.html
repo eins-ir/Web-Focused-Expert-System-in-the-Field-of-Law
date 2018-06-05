@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Исковое заявление - >Экспертная система</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="../css/jquery.js"></script>
+	<script type="text/javascript" src="../css/autoresize.jquery.js"></script>
+	<script type="text/javascript">
+    jQuery(function()
+    {
+        jQuery('textarea').autoResize();
+		extraSpace : 0
+    });
+	
+
+	</script>
+	<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="../../index.html">Экспертная система</a></h1>
+								<p>Генерация искового заявления</p>
+							</div>
+
+						<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html"><b>Главная</b></a></li>
+							<li>
+								<a href="../AboutProject.html"><b>О проекте</b></a></li>
+									<li><a href="#"><b>Услуги</b></a>
+									<ul>
+									<li><a href="../lawsuit.html"><b>Генерация искового заявления</b></a></li>
+									<li><a href="../inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+									<li><a href="../shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+									<li><a href="../mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+									<li><a href="../phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+									<li><a href="../bot/bot.html"><b>Поговорить с ботом</b></a></li>
+									</ul>
+									</li>
+							<li><a href="../contacts/contacts.html"><b>Контакты</b></a></li>
+						</ul>
+					</nav>
+
+					</div>
+				</div>
+			<div class="wrapper style2">
+				<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Написать исковое заявление</a>
+					<div class="spoiler-content"> 
+						<form class="box_usually effect7" method="post" action="document_usually.php">
+							<div class=WordSection1>
+								<p align="right"><span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+								<select  name="court" align="right" style="text-align:right;
+																													width:300px;
+																													font-size:12.0pt;
+																								border: 0.5px solid gray;
+																								color: #696969;" required>
+								<option value="">Выберете суд</option>
+								<option value="Волжский районный суд г. Саратова">Волжский районный суд</option>
+								<option value="Заводской районный суд г. Саратова">Заводской районный суд</option>
+								<option value="Кировский районный суд г. Саратова">Кировский районный суд</option>
+								<option value="Ленинский районный суд г. Саратова">Ленинский районный суд</option>
+								<option value="Октябрьский районный суд г. Саратова">Октябрьский районный суд</option>
+								<option value="Фрунзенский районный суд г. Саратова">Фрунзенский районный суд</option>
+							</select><br>
+								<b class=MsoNormal align=right style='margin-bottom:0cm;margin-bottom:.0001pt;
+										text-align:right;line-height:normal font-size:12.0pt;mso-bidi-font-size:
+										14.0pt;'>Истец: <span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<input name="plaintiff" style="text-align:left;
+																		width:300px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;
+																		color: #696969;" placeholder="ФИО заявителя" value="" required><br>
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+										<textarea name="requisites" style="width: 300px;
+																		height: 30px;
+																		overflow: hidden;
+																		padding: 5px;
+																		border: 0.5px solid gray;
+																		font-size:12.0pt;
+																		max-height:80px;
+																		resize:vertical;
+																		color: #696969;" rows="3" cols="20" wrap="soft" 
+											placeholder="почтовые реквизиты заявителя (адрес места жительства/регистрации, индекс)" value="" required></textarea><br>
+										<input name="phone" style="text-align:left;
+																	width:300px;
+																	font-size:12.0pt;
+																	border: 0.5px solid gray;
+																	color: #696969;" placeholder="Номер сотового телефона" value=""><br>
+										<input name="e-mail" style="text-align:left;
+																	width:300px;
+																	font-size:12.0pt;
+																	border: 0.5px solid gray;
+																	color: #696969;" placeholder="Адрес электронной почты" value=""><br>
+										Если ответчик присутствует, то поставте <br> галочку и укажите его в поле ниже <input type="checkbox" name="answerer_flag" value="yes">&emsp;&emsp;&nbsp;<br> 
+										<input name="answerer" style="text-align:left;
+																		width:300px;
+																		font-size:12.0pt;
+																		border: 0.5px solid gray;
+																		color: #696969;" placeholder="ФИО заявителя" value=""></p>
+								</b>
+								<br>
+								<br>
+								<p class=MsoNormal align=center style='margin-top:12.0pt;text-align:center;
+										text-indent:1.0cm'><b style='mso-bidi-font-weight:normal'>
+										<span style='font-size:16.0pt;mso-bidi-font-size:14.0pt;line-height:107%'>Исковое заявление<o:p></o:p></span></b></p>
+								<p style="text-align:center">
+								<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span>
+								о <input name="statement" style='width:600px;font-size:12.0pt;color: #696969;' placeholder="выражение, указывающее на Вашу проблему" value="" required></p>
+								<p style="text-align:left" style='font-size:14.0pt;font-family:Times'>Я,
+									...<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span><br>
+									
+									<textarea name="text"  rows="40" cols="20" wrap="soft" placeholder="Изложение обстоятельств дела" value="" required></textarea></p>
+								<p class=MsoNormal align=center style='margin-top:12.0pt;text-align:center;
+										text-indent:1.0cm'><b style='mso-bidi-font-weight:normal'>
+										<span style='font-size:16.0pt;mso-bidi-font-size:14.0pt;line-height:107%'>Прошу:
+										<span style="color: #BA0000; font-family: Verdana; font-size: 16px; font-weight: bold;"> *</span><o:p></o:p></span></b></p>
+								<textarea name="beg"  rows="40" cols="20" style="max-height:200px" wrap="soft" placeholder="Перечень конкретных, установленных формулировок, согласуется с назначением искового заявления" value="" required></textarea></p>
+								<p  style="margin-top:12.0pt;
+										text-indent:1.0cm"> <p align="center"><b><span align="center" style='font-size:16.0pt;mso-bidi-font-size:14.0pt;line-height:107%;text-align:center'>Приложения: </span></b></p>
+										<span align="left" style="text-align:left; font-size: 10.0pt">Вам предоставлен список документов, прилагаемых к иску. При необходимости самостоятельно допишите иные приложения, не указанные в списке. Полный перечень приложений приведен ниже</span>
+									<textarea name="apps"  rows="40" cols="20" wrap="soft" placeholder="перечень приложений, прилогаемых к иску. Список возможных приложений приведен ниже в памятке" value="" required>
+1. Квитанцию об оплате госпошлины;
+2. Копию паспорта;
+3. Документы, подтверждающие обстоятельства, изложенные в иске;
+5. Подписанные ходатайства и заявления.
+						</textarea></p>									
+	
+							</div>
+						
+							<p class="buttom"> <input type="submit" name="ok" value="Скачать получившийся иск" style="himargin-bottom:20px"></p>
+							</form>
+					</div> 
+				</div>
+	
+				<hr/>
+				
+				<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Памятки! Необходимые приложения для подачи заявления</a>
+					<div class="spoiler-content"> 
+					<div align="justify" class="cbm_wrap">
+					<div class="ribbon-wrapper-green">
+						<div class="ribbon-green">Памятка</div>
+					</div>
+					<br>
+					
+					<ol type="1" class="feature-list">
+						Ст. 132 ГПК РФ определен список приложений к исковому заявлению. Он включает в себя:
+						<li>1. Квитанцию об оплате госпошлины (оригинал); расчет суммы иска (при необходимости);</li>
+						<li>2. Копию паспорта или нотариально заверенной доверенности (если подача искового заявления возложена на представителя);</li>
+						<li>3. Документы, подтверждающие обстоятельства, изложенные в иске;</li>
+						<li>4. Правовой акт (если заявитель его оспаривает или требует отменить);</li>
+						<li>5. Подписанные ходатайства и заявления (например, об обеспечении иска, рассмотрении спора в отсутствие заявителя и пр.).</li>
+						</ol>
+						Количество копий прилагаемых документов должно соответствовать числу участников процесса. Оригинал квитанции, копия паспорта и доверенности подаются в единственном экземпляре и включаются в пакет приложений, предназначенный для суда.
+					
+					</div>​
+					</div>
+				</div>
+				<hr/>
+				<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Примеры исковых заявлений</a>
+					<div class="spoiler-content"> 
+					</div>
+				</div>
+				<script type="text/javascript"> 
+					$(document).ready(function(){ 
+						$('.spoiler-title').click(function(){ 
+							$(this).parent().children('div.spoiler-content').toggle('fast');
+							return false;
+						});
+					});
+				</script>
+			</div>
+	</div>
+
+		<!-- Scripts -->
+<!--
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<!--<script src="assets/js/main.js"></script>-->
+</body>
+</html>

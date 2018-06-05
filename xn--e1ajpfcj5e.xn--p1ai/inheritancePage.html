@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Расчет доли наследства</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="Inheritance/css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			//Скрыть PopUp при загрузке страницы    
+			PopUpHide();
+		});
+			//Функция отображения PopUp
+			function PopUpShow(){
+			$("#popup1").show();
+		}
+		//Функция скрытия PopUp
+		function PopUpHide(){
+			$("#popup1").hide();
+		}
+	</script>
+
+	<style>
+	p.dline {
+		line-height: 1.2em;
+	}
+	P {
+		line-height: 0.8;
+	}
+	</style>
+	
+</head>
+
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="css/jquery.js"></script>
+	<script type="text/javascript" src="css/autoresize.jquery.js"></script>
+	<script type="text/javascript">
+    jQuery(function()
+    {
+        jQuery('textarea').autoResize();
+		extraSpace : 0
+    });
+	
+
+	</script>
+	<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Экспертная система</a></h1>
+								<p>Расчет доли наследства</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html"><b>Главная</b></a></li>
+									<li>
+										<a href="AboutProject.html"><b>О проекте</b></a></li>
+											<li><a href="#"><b>Услуги</b></a>
+											<ul>
+											<li><a href="lawsuit.html"><b>Генерация искового заявления</b></a></li>
+											<li><a href="inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+											<li><a href="shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+											<li><a href="mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+											<li><a href="phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+											<li><a href="bot/bot.html"><b>Поговорить с ботом</b></a></li>
+											</ul>
+											</li>
+									<li><a href="contacts/contacts.html"><b>Контакты</b></a></li>
+								</ul>
+							</nav>
+					</div>
+				</div>
+			
+			<hr>
+			<div class="spoiler-block">
+					<a href="#" class="spoiler-title">Памятка для расчета доли наследства</a>
+					<div class="spoiler-content">
+						<font color="black" size="2" face="Arial"> 
+						<p class="dline"><strong>Наследники I очереди:</strong><br>
+						1. Родители<br>
+						2. Дети ЛИБО внуки<br>
+						3. Супруг
+						</p>
+						
+						<p class="dline"><strong>Наследники II очереди:</strong><br>
+						1. Полнородные и неполнородные братья и сёстры ЛИБО их дети (племянники наследодателя)<br>
+						2. Бабушки и дедушки
+						</p>
+						
+						<p class="dline"><strong>Наследники III очереди:</strong><br>
+						1. Дяди и тёти наследодателя ЛИБО двоюродные братья и сёстры
+						</p>
+
+						<p class="dline"><strong>Наследники IV очереди:</strong><br>
+						1. Прадедушки и прабабушки
+						</p>
+						
+						<p class="dline"><strong>Наследники V очереди:</strong><br>
+						1. Дети родных племянников и племянниц наследодателя (двоюродные внуки и внучки)<br>
+						2. Родные братья и сестры его дедушек и бабушек (двоюродные дедушки и бабушки)
+						</p>
+						
+						<p class="dline"><strong>Наследники VI очереди:</strong><br>
+						1. Дети двоюродных внуков и внучек наследодателя (двоюродные правнуки и правнучки)<br>
+						2. Дети двоюродных братьев и сестер наследодателя (двоюродные племянники и племянницы)<br>
+						3. Дети двоюродных дедушек и бабушек наследодателя (двоюродные дяди и тети)
+						</p>
+						
+						<p class="dline"><strong>Наследники VII очереди:</strong><br>
+						1. Пасынки и падчерицы<br>
+						2. Отчим и мачеха
+						</ul>
+
+						<p>Наследники предыдущей очереди исключают наследование последующей очередью.</p>
+						
+						<p class="dline"><strong>Недостойный наследник (должен быть выполнен хотя бы один пункт):</strong><br>
+						1. ЛИБО своими действиями старался увеличить долю в наследстве, призвать себя или иных лиц к наследованию 
+						(подтверждается определением суда об отмене завещания). Например: подделка/хищение/уничтожение завещания, 
+						насильственное или иное принуждение к составлению или отмене завещания, понуждение наследников к отказу от завещания<br>
+						2. ЛИБО родители против детей, в отношении которых они лишены родительских прав<br>
+						3. ЛИБО ПО ТРЕБОВАНИЮ ЗАИНТЕРЕСОВАННОГО ЛИЦА РЕШЕНИЕМ СУДА в случае злостного уклонения от выполнения лежащих 
+						на наследнике обязанностей по содержанию наследодателя
+						</p>
+						
+						<p class="dline"><strong>Иждивенец (должны быть выполнены ВСЕ пункты):</strong><br>
+						1. Нетрудоспособен<br>
+						2. Находится на иждивении<br>
+						3. Совместно проживает более года ЛИБО наследник другой очереди
+						</p>
+						</font>
+					</div>
+				</div>
+			<hr/>
+				
+				
+			<div class="wrapper style2" style="color:black; font-size:100%;">
+					<div class="spoiler-block">
+					<font color="black" size="3" face="Arial"> 
+					<center><h1>Расчет доли наследства между наследниками</h1></center>
+					<font color="black" size="1"><p class="dline"><center><i>Замечание: Все входные данные должны быть целыми числами больше нуля. <br> 
+					Количество недостойных наследников не может быть больше общего количества наследников.</i></center></p></font>
+						<form class="box2 effect7" action="Inhcalc.php" method="POST"&ggt;>
+							<div class=WordSection1 >
+							
+							<p><input type="checkbox" style="color:black;" name="spouse" value="1"> У наследодателя есть супруг(а)</p>
+							
+							<div class="b-container">
+								<a href="javascript:PopUpShow()"><input type="checkbox" name="spouseflag" value="1"></a>
+								Доля рассчитывается для супруга(и)
+							</div>
+							<div class="b-popup" id="popup1">
+								<div class="b-popup-content">
+									<font color="black" size="2" face="Arial" style="color:black;"> 
+									Охарактеризуйте имущество по критерию относимости к совместно нажитому:<br>
+									<input type="radio" name="per_s" value="1"> в дар (в том числе на деньги, полученные в дар) <br>
+									<input type="radio" name="per_s" value="2"> приобретённое до вступление в брак <br>
+									<input type="radio" name="per_s" value="3"> совместно нажитое в браке <br>
+									<input type="radio" name="per_s" value="4"> полученное по наследству <br>
+									<input type="radio" name="per_s" value="5"> приобретённое на личные именные выплаты/субсидии/пенсии <br>
+									<input type="radio" name="per_s" value="6">
+											иное, на которое в соответствии со ст.256 ГК РФ не распространяется режим общей собственности супругов
+									</font>
+								</div>
+							</div>
+							<br>
+							
+							Номер очереди наследства:
+								<select required size = "1" name = "queue" style="color:black;">
+									<option disabled>Выберите номер</option>
+									<option value = "1">I</option>
+									<option value = "2">II</option>
+									<option value = "3">III</option>
+									<option value = "4">IV</option>
+									<option value = "5">V</option>
+									<option value = "6">VI</option>
+									<option value = "7">VII</option>
+								</select>
+							<br /> <br />
+							Количество родственников в одной очереди: <input type="text" style="color:black;" name="heirs"><br /> <br />
+							Количество недостойных наследников в одной очереди: <input type="text" style="color:black;" name="undignified"><br /><br />
+							<p><input type="checkbox" name="spouseN" style="color:black;" value="1"> Супруг является недостойным наследником</p>
+							Количество иждивенцев: <input type="text" style="color:black;" name="dependant"><br /><br />
+			
+							<input type="submit" class="style1" value="Рассчитать долю">
+							</div>
+							<br>
+							
+							<div><h1><b>Результат:</b></h1>
+							<br>
+							<span style="color:black;">
+								<?php 
+								if($msgErr!='n')
+									echo $msgErr;
+								elseif($spouseflag==0)
+									echo "Ваша доля в наследстве равна $percentage от всего наследства.";
+								?>
+							</span>
+							<br>
+							<span style="color:black;">
+								<?php
+								if($msgErrSpouse!='n')
+									echo $msgErrSpouse;
+								elseif($spouseflag==1 && $spouseN==0)
+									echo "Доля в наследстве супруга равна $percentage_spouse от всего наследства.";
+								?>
+							</span>
+							</div>
+							
+						</form>
+						</font>
+					</div> 
+				<hr/>
+			
+			<div class="wrapper style2">
+				<div class="spoiler-block">
+				<font color="black" size="3" face="Arial" style="color:black;"> 
+					<center><h1>Расчет доли наследства между детьми погибшего наследника</h1></center>
+					<font color="black" size="1"><p class="dline"><center><i>Замечание: Для расчета доли наследства у погибшего наследника воспользуйтесь формой выше.</i></center></p></font>
+						<form class="box3 effect7" action="InhcalcChild.php" method="POST"&ggt;>
+							<div class=WordSection1 >
+							Доля наследства у погибшего наследника: <input type="text" style="color:black;" name="per"><br /> <br />
+							Количество детей у погибшего наследника: <input type="text" style="color:black;" name="hchild"><br /> <br /> 
+							<input type="submit" class="style1" value="Рассчитать долю">
+							</div>
+							<br>
+							
+							<div><h1><b>Результат:</b></h1>
+							<br>
+							<span style="color:black;">
+								<?php 
+								if($msgErrC!='n')
+									echo $msgErrC;
+								else 
+									echo "Доля в наследстве каждого ребенка погибшего наследника равна $child_per от всего наследства.";
+								?>
+							</span>
+							</div>
+							
+						</form>
+					</font>
+				</div>
+		
+				<script type="text/javascript"> 
+					$(document).ready(function(){ 
+						$('.spoiler-title').click(function(){ 
+							$(this).parent().children('div.spoiler-content').toggle('fast');
+							return false;
+						});
+					});
+				</script>
+			</div>
+	</div>
+</body>
+</html>

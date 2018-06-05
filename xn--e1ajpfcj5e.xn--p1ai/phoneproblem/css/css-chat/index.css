@@ -1,0 +1,74 @@
+
+
+.container {
+	width: 700px;
+	margin: 50px auto 20px;
+}
+
+
+.chat {
+	border: 1px solid #ccc;
+	height: 300px;
+	overflow-y: scroll;
+	background-color: white;
+	border-radius: 10px 0 0 0;
+}
+
+.chat div {
+	margin: 10px 12px 15px 10px;
+	line-height: 20px;
+}
+
+.chat .party {
+	font-weight: bold;
+}
+
+.chat .you {
+	color: #CE5B5B;
+}
+
+.chat .other {
+	color: #4E4B4B;
+}
+
+.chat .text {
+	
+}
+
+.busy {
+	position: absolute;
+	color: #666;
+	display: none;
+	font-size: 13px;
+}
+
+.input {
+	margin-top: 20px;
+}
+
+.input input {
+	vertical-align: top;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 550px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.input a {
+	vertical-align: top;
+	float: right;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+	padding: 7px 35px;
+	color: #4E4B4B;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*.input a:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}*/

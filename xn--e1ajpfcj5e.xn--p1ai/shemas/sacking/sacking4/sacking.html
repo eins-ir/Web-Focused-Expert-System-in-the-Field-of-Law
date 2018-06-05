@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="utf-8">
+    <title>Исковое заявление - >Экспертная система</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../../../assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body class="left-sidebar">
+	<script type="text/javascript" src="../../../css/jquery.js"></script>
+	<script type="text/javascript" src="../../../css/autoresize.jquery.js"></script>
+	
+	<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="../../../index.html">Экспертная система</a></h1>
+								<p>Генерация искового заявления</p>
+							</div>
+
+						<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="../../../index.html"><b>Главная</b></a></li>
+					<li>
+						<a href="../AboutProject.html"><b>О проекте</b></a></li>
+							<li><a href="#"><b>Услуги</b></a>
+							<ul>
+							<li><a href="../../../lawsuit.html"><b>Генерация искового заявления</b></a></li>
+							<li><a href="../../../inheritancePage.html"><b>Расчет доли наследства</b></a></li>
+							<li><a href="../../../shemas/sacking/sacking2/sacking.html"><b>Увольнение</b></a></li>
+							<li><a href="../../../mailproblem/mail.html"><b>Претензии к работе почты</b></a></li>
+							<li><a href="../../../phoneproblem/phone.html"><b>Снятие денег на телефоне</b></a></li>
+							<li><a href="../../../bot/bot.html"><b>Поговорить с ботом</b></a></li>
+							</ul>
+							</li>
+					<li><a href="../../../contacts/contacts.html"><b>Контакты</b></a></li>
+				</ul>
+			</nav>
+					</div>
+				</div>
+				<script type="text/javascript">
+				
+				var Stage = function(){
+					var inputs = document.getElementsByName("transgression");
+					var selectedValue = "";
+					var input_len = inputs.length;
+					for (var i = 0; i < input_len; i++) {
+						if (inputs[i].checked)
+						{
+							selectedValue = inputs[i].value;
+							break; 
+						}
+					}
+					if (selectedValue != ""){
+						switch(selectedValue){
+							case "single entry":{
+								document.getElementById('div1').style.display='none';
+								document.getElementById('variant1').style.display='block';
+							}
+							break;
+							case "repeated":{
+								document.getElementById('div1').style.display='none';
+								document.getElementById('variant2').style.display='block';
+							}
+							break;
+						}
+					}
+				}
+				
+				var Stage21YES = function(){
+					document.location.href = "sacking21.html";
+				}
+				var Stage21NO = function(){
+					document.location.href = "negativanswer.html";
+				}
+				var Stage22YES = function(){
+					document.location.href = "sacking22.html";
+				}
+				var Stage22NO = function(){
+					document.location.href = "negativanswer.html";
+				}
+				</script>
+				<!-- Contact Form -->
+										
+											
+										<div id="div1" align=center> <h5>Укажите подходящий Вам вариант:<h5><br>
+											<div align=left style="margin-left:38%">
+											<input id="rad1" type="radio" name="transgression" value="single entry" style="text-align:left">
+											<label for="rad1"> Неоднократное нарушение</label>
+											<br>
+											<input id="rad2" type="radio" name="transgression" value="repeated">
+											<label for="rad2"> Однократное грубое нарушение</label>
+											</div>
+											<br>
+											
+											<button  onclick="Stage()" class="style1">Готово</button>
+										</div>
+										<div id="variant1" align=center style="display:none;">
+											<h5>Был ли установлен работодателем факт нарушения Вами трудовых обязанностей?</h5> 
+											<br>
+											<button  onclick="Stage21YES()" class="style1">Да</button> <button  onclick="Stage21NO()" class="style1">Нет</button>
+										</div>
+										<div id="variant2" align=center style="display:none;">
+											<h5>Был ли установлен работодателем факт совершения грубого нарушения трудовых обязанностей?</h5>
+											<br>
+											<button  onclick="Stage22YES()" class="style1">Да</button> <button  onclick="Stage22NO()" class="style1">Нет</button>
+										</div>
+										
+											
+	</div>
+	<!-- Scripts -->
+
+			<script src="../../../assets/js/jquery.min.js"></script>
+			<script src="../../../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../../../assets/js/skel.min.js"></script>
+			<script src="../../../assets/js/skel-viewport.min.js"></script>
+			<script src="../../../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../../../assets/js/main.js"></script>
+</body>
+</html>
+				
